@@ -1,0 +1,121 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: palevioletred;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Home section */
+  #home {
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #home .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  /* About section */
+  #about {
+    background-color: #2ecc71;
+  
+    color: #fff;
+  }
+  
+  
+  /* Projects section */
+  #projects {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    width: 100%;
+  }
+  
+  /* Photo section */
+  #photo {
+    background-color: #9b59b6;
+    color: #fff;
+  }
+  
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .photo-gallery img {
+    width: 100%;
+  }
+  
+  /* Contact section */
+  #contact {
+    background-color: #e74c3c;
+    background-color: ;
+    background-color: ;
+    color: #fff;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  form button {
+    background-color: #fff;
+    color: #e74c3c;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
